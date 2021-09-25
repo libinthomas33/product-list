@@ -1,0 +1,23 @@
+{
+  "name": "product-list",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <h3 align=\"center\">A form for collecting user information, and display the information</h3>",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libinthomas33/product-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/libinthomas33/product-list/issues"
+  },
+  "homepage": "https://github.com/libinthomas33/product-list#readme"
+}
