@@ -3,7 +3,6 @@
   <h3 align="center">Category and Product listing APP
 
   <p align="center">
-    Category Add, Sub category Add, Product Add, Product List.
     <br />
     <a href="https://github.com/libinthomas33/product-list.git"><strong>Explore the docs »</strong></a>
     <br />
