@@ -9,5 +9,7 @@ const verifyUnique = require('../middlewares/verifyUnique');
 
 //define the routes
 router.post('/save', [verifyUnique.checkCategoryUniqueness], categoryController.saveCategory);
+router.post('/list',categoryController.listCategory);
+router.post('/cat-sub' ,categoryController.listCategorySubCategory);
 
 module.exports = router;

@@ -11,6 +11,13 @@ var CategorySchema = new Schema({
     type: String,
     required: true
   },
+  isparent: {
+    type: Number
+  },
+  parent_id: {
+    type: Schema.Types.ObjectId,
+    ref: 'category'
+  },
   created_at: {
     type: Date,
     default: Date.now
