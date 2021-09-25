@@ -2,6 +2,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
+const cors = require('cors');
 require('dotenv').config();
 
 //imports
@@ -10,7 +11,7 @@ const db = require('./config/db');
 const debugLog = require('./middlewares/debugLog');
 
 const app = express();
-
+app.use(cors());
 // parse requests of content-type - application/json
 app.use(bodyParser.json());
 

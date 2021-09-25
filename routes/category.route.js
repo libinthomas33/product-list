@@ -5,8 +5,9 @@ const router = express.Router();
 var categoryController = require('../controllers/category.controller');
 
 //middlewares
+const verifyUnique = require('../middlewares/verifyUnique');
 
 //define the routes
-router.post('/save', categoryController.saveCategory);
+router.post('/save', [verifyUnique.checkCategoryUniqueness], categoryController.saveCategory);
 
 module.exports = router;
